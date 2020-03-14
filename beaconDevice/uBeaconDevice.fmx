@@ -1,0 +1,63 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 265
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Label1: TLabel
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Position.Y = 49.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 10.000000000000000000
+    Text = 'Label1'
+    TabOrder = 3
+  end
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 265.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+  end
+  object Label2: TLabel
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Position.Y = 83.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 10.000000000000000000
+    Text = 'Label1'
+    TabOrder = 2
+  end
+  object Label3: TLabel
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Position.Y = 66.000000000000000000
+    Size.Width = 265.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 10.000000000000000000
+    Text = 'Label1'
+    TabOrder = 1
+  end
+  object BeaconDevice1: TBeaconDevice
+    Enabled = True
+    ManufacturerId = '004C'
+    UUID = '{F9C8FE0A-65F1-11EA-BC55-0242AC130003}'
+    Major = 4321
+    Minor = 1234
+    EddystoneNamespace = 'example.com'
+    EddystoneInstance = '000000000001'
+    Left = 112
+    Top = 216
+  end
+end

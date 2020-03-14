@@ -1,0 +1,67 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 294
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 294.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object Panel2: TPanel
+    Align = Bottom
+    Position.Y = 439.000000000000000000
+    Size.Width = 294.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object Panel3: TPanel
+    Align = Client
+    Size.Width = 294.000000000000000000
+    Size.Height = 398.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Memo1: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Client
+      Size.Width = 294.000000000000000000
+      Size.Height = 349.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 290.000000000000000000
+      Viewport.Height = 345.000000000000000000
+    end
+    object Button1: TButton
+      Align = Top
+      Size.Width = 294.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Find Key'
+      OnClick = Button1Click
+    end
+  end
+  object Beacon1: TBeacon
+    ModeExtended = [iBeacons, AltBeacons, Eddystones]
+    MonitorizedRegions = <
+      item
+        UUID = '{F9C8FE0A-65F1-11EA-BC55-0242AC130003}'
+        EddyNamespace = '00000000000000000000'
+        EddyInstance = '000000000000'
+        IDManufacturer = '-1'
+      end>
+    SPC = 0.500000000000000000
+    OnBeaconEnter = Beacon1BeaconEnter
+    Left = 248
+    Top = 81
+  end
+end

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/09/24 21:27:35.000.147,=C:\Users\Renan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/24 21:28:59.000.112,=C:\Users\Renan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/24 23:33:16.000.635,=C:\Users\Renan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/14 10:12:48.000.404,=C:\Users\Renan\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/14 10:24:02.000.116,C:\Users\Renan\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\PósDelphi\10 - Inteligência Artificial e IOT\Unidade 2\projeto\beaconProximo\uBeaconProximo.fmx</Transaction>
+    <Transaction>2020/03/14 10:24:02.000.116,C:\Users\Renan\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\PósDelphi\10 - Inteligência Artificial e IOT\Unidade 2\projeto\beaconProximo\uBeaconProximo.pas</Transaction>
+    <Transaction>2020/03/14 10:50:54.000.582,C:\Users\Renan\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\PósDelphi\10 - Inteligência Artificial e IOT\Unidade 2\projeto\beaconProximo\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0042981360"/>
+	</ActiveMobileDevice>
+</BorlandProject>
